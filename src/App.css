@@ -1,0 +1,32 @@
+html, 
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: rgb(245,245,245,245);
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* content margin */
+.container {
+  margin: 80px auto 0 auto;
+  max-width: 1200px;
+}
+
+/* inside navbar margin */
+.nav-container {
+  margin: auto;
+}
+/* icons */
+.nav-container svg {
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
